@@ -1,10 +1,11 @@
-function Student({ student }) {
+function Student({ name, age, color }) {
   return (
-    <h2>
-      Name: {student.name}, 
-      Age: {student.age}, 
-      Roll No: {student.rollNo}
-    </h2>
-  );
+    <div>
+      <h2>Student Name: {name}</h2>
+      <h2>Age: {age}</h2>
+      <h2>Favorite Color: {color}</h2>
+    </div>
+  )
 }
-export default Student;
+
+export default Student;  

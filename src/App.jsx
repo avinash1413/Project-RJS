@@ -1,7 +1,7 @@
 // // import Header from "./Header"
 // // import { createElement } from "react"
 // import ToDo from "./ToDo"
-// import  { useState } from "react" 
+import  { useState } from "react" 
 // import User1 from "./User1"
 // import Counter from "./Counter";
 // import Student from "./Student"
@@ -10,9 +10,43 @@
 // import RdoDrpdwn from "./RdoDrpdwn"
 // import ArrayLoop from "./ArrayLoop"
 // import Clock from "./Clock";
+// import NestedLooping from "./NestedLooping"
+// import UseEffect from "./UseEffect";
+import ReactLifeCycle from "./ReactLifeCycle";
+// import Counter from "./ReactLifeCycle";
 
 
 function App() {
+  const [count, setCount]=useState(0);
+  // const [data, setData]=useState({});
+  const [display, setDisplay]=useState(true);
+  
+  return(
+    <div>
+      <h1>React Life Cycle Methods</h1>
+      <button onClick={()=>setDisplay(!display)}>
+        {display ? "Unmount Counter Component" : "Mount Counter Component"}
+      </button>
+      {display && <ReactLifeCycle count={count} data={{title: "Sample Data"}} />}
+      <button onClick={()=>setCount(count + 1)}>Update Count</button>
+    </div>
+  )
+
+
+
+  // return (
+  //   <div>
+  //     <UseEffect />
+  //   </div>
+  // )
+
+  // }
+  // return(
+  //   <div>
+  //     <h1>Nested Looping Example</h1>
+  //     <NestedLooping />
+  //   </div>
+  // )
   // const [color, setColor]=useState('yellow')
   // return(
   //   <div>
