@@ -1,4 +1,4 @@
-function ArrayLoop() {
+function ArrayinRJS() {
   const userData = [
     { 
         id: 1, 
@@ -49,4 +49,4 @@ function ArrayLoop() {
   );
 }
 
-export default ArrayLoop;
+export default ArrayinRJS;

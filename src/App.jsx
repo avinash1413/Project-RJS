@@ -8,7 +8,7 @@ import  { useState } from "react"
 // import Wrapper from "./Wrapper"
 // import CheckBox from "./CheckBox"
 // import RdoDrpdwn from "./RdoDrpdwn"
-// import ArrayLoop from "./ArrayLoop"
+// import ArrayLoop from "./ArrayinRJS";
 // import Clock from "./Clock";
 // import NestedLooping from "./NestedLooping"
 // import UseEffect from "./UseEffect";
@@ -68,7 +68,7 @@ function App() {
   // return(
   //   <div>
   //     <h1>Array Looping Example</h1>
-  //     <ArrayLoop />
+  //     <ArrayinRJS />
   //   </div>
   // )
   
