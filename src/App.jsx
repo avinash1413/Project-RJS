@@ -12,25 +12,33 @@ import  { useState } from "react"
 // import Clock from "./Clock";
 // import NestedLooping from "./NestedLooping"
 // import UseEffect from "./UseEffect";
-import ReactLifeCycle from "./ReactLifeCycle";
+// import ReactLifeCycle from "./ReactLifeCycle";
 // import Counter from "./ReactLifeCycle";
+import LoopsinRJS from "./LoopsinRJS";
 
 
 function App() {
-  const [count, setCount]=useState(0);
-  // const [data, setData]=useState({});
-  const [display, setDisplay]=useState(true);
-  
   return(
     <div>
-      <h1>React Life Cycle Methods</h1>
-      <button onClick={()=>setDisplay(!display)}>
-        {display ? "Unmount Counter Component" : "Mount Counter Component"}
-      </button>
-      {display && <ReactLifeCycle count={count} data={{title: "Sample Data"}} />}
-      <button onClick={()=>setCount(count + 1)}>Update Count</button>
+      <h1>Loops in React JS</h1>
+      <LoopsinRJS />
     </div>
   )
+
+  // const [count, setCount]=useState(0);
+  // const [data, setData]=useState({});
+  // const [display, setDisplay]=useState(true);
+  
+  // return(
+  //   <div>
+  //     <h1>React Life Cycle Methods</h1>
+  //     <button onClick={()=>setDisplay(!display)}>
+  //       {display ? "Unmount Counter Component" : "Mount Counter Component"}
+  //     </button>
+  //     {display && <ReactLifeCycle count={count} data={{title: "Sample Data"}} />}
+  //     <button onClick={()=>setCount(count + 1)}>Update Count</button>
+  //   </div>
+  // )
 
 
 
