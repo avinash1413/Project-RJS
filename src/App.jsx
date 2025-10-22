@@ -1,7 +1,7 @@
 // // import Header from "./Header"
 // // import { createElement } from "react"
 // import ToDo from "./ToDo"
-import  { useState } from "react" 
+// import  { useState } from "react" 
 // import User1 from "./User1"
 // import Counter from "./Counter";
 // import Student from "./Student"
@@ -14,16 +14,35 @@ import  { useState } from "react"
 // import UseEffect from "./UseEffect";
 // import ReactLifeCycle from "./ReactLifeCycle";
 // import Counter from "./ReactLifeCycle";
-import LoopsinRJS from "./LoopsinRJS";
+// import LoopsinRJS from "./LoopsinRJS"; 
+// import BasicCSS from "./BasicCSS";
+import ExternalCSS from "./ExternalCSS";
 
 
 function App() {
   return(
     <div>
-      <h1>Loops in React JS</h1>
-      <LoopsinRJS />
+      <h1>External CSS in React JS</h1>
+      <ExternalCSS />
     </div>
   )
+
+  
+  // return(
+  //   <div>
+  //     <h1>Basic CSS in React JS</h1>
+  //     <BasicCSS />
+  //   </div>
+
+    
+  // )
+
+  // return(
+  //   <div>
+  //     <h1>Loops in React JS</h1>
+  //     <LoopsinRJS />
+  //   </div>
+  // )
 
   // const [count, setCount]=useState(0);
   // const [data, setData]=useState({});
