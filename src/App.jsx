@@ -20,14 +20,17 @@
 // import UserProfile from "./UserProfile";
 // import StyleComponent from "./StyleComponent";
 // import ReactBootstrap from "./ReactBootstrap"
-import RefHook from "./RefHook"
+// import RefHook from "./RefHook"
+import UncontrolledComp from "./UncontrolledComp"
 
 
 function App() {
   return (
     <div>
-      <h1>Reference Hook</h1>
-      <RefHook />
+      <h1>Uncontrolled Component</h1>
+      <UncontrolledComp />
+      {/* <h1>Reference Hook</h1>
+      <RefHook /> */}
       {/* <h1> React Bootstrap</h1> */}
       {/* <ReactBootstrap /> */}
     </div>
