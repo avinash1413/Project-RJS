@@ -21,14 +21,15 @@
 // import StyleComponent from "./StyleComponent";
 // import ReactBootstrap from "./ReactBootstrap"
 // import RefHook from "./RefHook"
-import UncontrolledComp from "./UncontrolledComp"
+// import UncontrolledComp from "./UncontrolledComp"
+import Controlled from "./Controlled"
 
 
 function App() {
   return (
     <div>
-      <h1>Uncontrolled Component</h1>
-      <UncontrolledComp />
+      <h1>controlled Component</h1>
+      <Controlled />
       {/* <h1>Reference Hook</h1>
       <RefHook /> */}
       {/* <h1> React Bootstrap</h1> */}
