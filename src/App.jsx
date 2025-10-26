@@ -22,14 +22,25 @@
 // import ReactBootstrap from "./ReactBootstrap"
 // import RefHook from "./RefHook"
 // import UncontrolledComp from "./UncontrolledComp"
-import Controlled from "./Controlled"
+// import Controlled from "./Controlled"
+// import UncontrolledComp from "./UncontrolledComp"
+import User from "../PassFunction"
 
+const displayName=(name)=>{
+  alert(name)
+}
 
+const getUser=()=>{
+  alert("Get User Called")
+}
 function App() {
   return (
     <div>
-      <h1>controlled Component</h1>
-      <Controlled />
+      <h1>Call Parent Component Function from Child Component</h1>
+      <User displayName={displayName} name="Avinash" getUser={getUser}/>
+      <User displayName={displayName} name="Sahil" getUser={getUser}/>
+      {/* <h1>Uncontrolled Component</h1>
+      <UncontrolledComp /> */}
       {/* <h1>Reference Hook</h1>
       <RefHook /> */}
       {/* <h1> React Bootstrap</h1> */}
