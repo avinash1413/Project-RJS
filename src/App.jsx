@@ -25,7 +25,10 @@
 // import Controlled from "./Controlled"
 // import UncontrolledComp from "./UncontrolledComp"
 // import User from "../PassFunction"
-import ForwardRef from "../forwardRef"
+// import ForwardRef from "../forwardRef"
+// import UseFormStatus from "../UseFormStatus"
+// import TransitionHook from "../TransitionHook"
+import DerivedState from "../DerivedState"
 
 
 // const displayName=(name)=>{
@@ -38,8 +41,14 @@ import ForwardRef from "../forwardRef"
 function App() {
   return (
     <div>
-      <h1>Forward Ref</h1>
-      <ForwardRef />
+      <h1>Derived State</h1>
+      <DerivedState />
+      {/* <h1>Use Transition Hook</h1>
+      <TransitionHook /> */}
+      {/* <h1>Use Form State</h1>
+      <UseFormStatus /> */}
+      {/* <h1>Forward Ref</h1>
+      <ForwardRef /> */}
       {/* <h1>Call Parent Component Function from Child Component</h1>
       <User displayName={displayName} name="Avinash" getUser={getUser}/>
       <User displayName={displayName} name="Sahil" getUser={getUser}/> */}
